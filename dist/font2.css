@@ -1,0 +1,20 @@
+*{
+    font-family:  estedad-m ;
+    font-family: estedad-l;
+}
+@font-face {
+    font-family: estedad-m;
+    src: url(../fonts/Estedad/Estedad-Medium.woff2);
+}
+@font-face {
+    font-family: estedad-s;
+    src: url(../fonts/Estedad/Estedad-SemiBold.woff2);
+}
+@font-face {
+    font-family: estedad-r;
+    src: url(../fonts/Estedad/Estedad-Regular.woff2);
+}
+@font-face {
+    font-family: estedad-l;
+    src: url(../fonts/Estedad/Estedad-Light.woff2);
+}

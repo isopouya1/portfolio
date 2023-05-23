@@ -1,0 +1,319 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0 ,  maximum-scale=1, user-scalable=no">
+    <link href="https://fonts.googleapis.com/css2?family=Rubik:wght@300;400;500;600;700;800;900&display=swap" rel="stylesheet">
+    <link rel="icon" href="../assets/P.png">
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+    <link rel="stylesheet" href="../dist/style.css">
+    <link rel="stylesheet" href="../dist/font.css">
+    <title>Isopouya | Portfolio</title>
+</head>
+<body class="container overflow-x-hidden">
+    <div id="loading">
+        <img id="loading-image" src="../assets/dgfh.png" class="w-28 animate-ping"  alt="Loading..." />
+        </div>  
+    <header class=" mt-5 flex items-center gap-x-[240px] lg:gap-x-[50px]">
+<h1 class="text-primary text-5xl" data-aos="fade">P<span class="text-white">.</span></h1>
+        <button type="button" id="overlayToggle" data-aos="fade">
+            <svg xmlns="http://www.w3.org/2000/svg" class="h-11 w-11 stroke-primary ml-5 lg:hidden" fill="none"
+                viewBox="0 0 24 24" stroke="currentColor" stroke-width="2">
+                <path stroke-linecap="round" stroke-linejoin="round" d="M4 6h16M4 12h16M4 18h16" />
+            </svg>
+        </button>
+        <div id="overlayMenu"
+        class="flex min-w-full flex-col h-screen lg:hidden fixed top-0 right-[-100%] z-50 bg-[#161616]/70 backdrop-blur-2xl shadow-2xl">
+        <button class="absolute top-6 right-[23px] "type="button" id="closeOverlayToggle">
+            <svg xmlns="http://www.w3.org/2000/svg" class="h-10 w-10 stroke-primary lg:hidden"
+                fill="none" viewBox="0 0 24 24" stroke="currentColor" stroke-width="2">
+                <path stroke-linecap="round" stroke-linejoin="round" d="M6 18L18 6M6 6l12 12" />
+            </svg>
+        </button>
+        <ul class=" text-gray text-center  pt-48  gap-y-7 text-lg text-white flex-col flex font-normal cursor-pointer">   
+           <a href=""> <li class="  duration-1000 transform transition-colors font-semibold" data-aos="fade">About <span class="text-primary font-semibold">me</span></li>      </a>
+           <a href="#ser"> <li class=" hover:text-primary duration-500 transform transition-colors font-semibold"  data-aos="fade">Services</li> </a>
+          <a href="#porto">  <li class="hover:text-primary duration-500 transform transition-colors font-semibold"  data-aos="fade">Protoflio</li></a>
+             <a href="../public/Blog.html">  <li class="hover:text-primary duration-500 transform transition-colors font-semibold"  data-aos="fade">Blog</li></a>
+        </ul>
+       <a href="./Persian.html"><button class="w-24 h-11 border-2 border-white mt-6 rounded-lg ml-[153px] text-white transition-colors duration-500 hover:bg-primary">Persian</button></a> 
+    </div>
+            <ul class=" gap-x-11 hidden text-gray font-normal cursor-pointer lg:mr-5 lg:ml-48 lg:flex lg:flex-row-reverse text-white">   
+                  <a href="../public/Blog.html"><li class="hover:text-primary font-semibold duration-1000 transform transition-colors ">Blog</li></a>    
+               <a href="../public/about.html"><li class="hover:text-primary font-semibold duration-1000 transform transition-colors ">Protoflio</li></a> 
+                <a href="../public/product.html"><li class="hover:text-primary font-semibold  duration-1000 transform transition-colors ">Services</li></a>
+             <a href="../public/home.html"> <li class="hover:text-primary font-semibold duration-500 transform transition-all ">About <span class="text-primary transition-colors duration-500 hover:text-white">me</span></li>  </a>      
+            </ul>
+           <div class="hidden lg:flex " >
+           <a href="./Persian.html"><button class="w-8 h-8 transition-colors duration-500 border-2 border-white mt-6 rounded-lg ml-[146px] text-white hover:bg-primary">Fa</button></a>  
+           <a href="#cont"> <img src="../assets/Group 58.png" alt="" class=" w-40 cursor-pointer"></a>
+        
+           </div>
+    </header>
+    <main class="mb-20 lg:mb-0">
+        <section class="flex-col lg:flex-row-reverse lg:flex  lg:gap-x-52">
+            <div id="hero-img" data-aos="fade"><img class="w-[950px] lg:mt-10" src="../assets/Group 201.png" alt=""></div>
+            <div id="Hero-txt" class="lg:mt-28 ">
+                <h5 class="text-white font-semibold  text-2xl lg:text-4xl" data-aos="fade-right">Hello.  <span class="text-primary font-normal ">im</span></h5>
+                <h1 id="typing-demo" class="text-white text-3xl -mt-1 lg:font-medium lg:text-5xl font-normal" data-aos="fade"><span class="text-primary lg:font-light">Pouya</span> Zohrehvand</h1>
+                <h1 class="text-white text-xl mt-1 font-medium lg:font-semibold" data-aos="fade">UI/UX Designer <span class="text-primary font-medium">and</span> Webdeveloper</h1> <img src="../assets/Rectangle 1156.png" alt="" id="bef" class="lg:hidden"> 
+                <p class="text-[#787878] text-xs -mt-3  lg:mt-5 border-l-2 pl-1 border-primary border-" data-aos="fade-up-right">
+                    UI/UX Designer and Webdeveloper UI/UX Designer and <br> Webdeveloper UI/UX Designer and WebdeveloperUI/UX <br class="hidden lg:flex"> Designer and Webd Designer and Webd Designer and We
+                </p>
+                <a href="../assets/Cv.jpg" download target="_blank">    <button type="button" class="w-36 rounded-[13px] h-10 bg-primary text-white font-medium mt-10 transition-colors duration-500 cursor-pointer hover:bg-[#4900A5]" data-aos="fade-down-right">My Cv</button> </a>
+              <a href="#footer" class="transition-all fade scroll-smooth transform  ease-linear  duration-300" data-aos="fade-up"><img class="mt-9 scroll-smooth m-auto lg:ml-[500px] lg:mt-28 w-10 animate-bounce transition-all duration-500 fade " src="../assets/Vector.svg" alt="" ></a>  
+                <div class=" hidden lg:flex lg:-mt-10 items-center gap-x-5">
+                    <h1 class=" -mt-5 text-white justify-between font-light">Check Out My</h1>
+                    <div class="flex gap-x-5 -mt-5">
+                        <a href="https://instagram.com/isopouya?igshid=YmMyMTA2M2Y="><img class="w-10 cursor-pointer" src="../assets/Group 204.png" alt=""></a>  
+                       <a href="https://telegram.me/IsLynch"><img class="w-10 cursor-pointer" src="../assets/Group 205.png" alt=""></a> 
+                        <a href="https://wa.me/+989120960199">  <img class="w-10 cursor-pointer" src="../assets/Group 207.png" alt=""> </a>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <section id="ser" class="mt-10 lg:mt-32 mb-24 flex flex-col">
+            <div>
+                <h1 class="text-primary text-2xl font-medium flex " data-aos="fade-right"><span class="text-white font-semibold">My</span> service <img class="ml-1" src="../assets/Group 79.svg" alt=""> </h1>
+                <h1 class="text-white text-4xl lg:mt-3 font-semibold mt-7" data-aos="fade-up-right">What I Do.</h1>
+            </div>
+            <div class="flex lg:flex lg:flex-row flex-col lg:-ml-16">
+                <img id="sc" class="lg:w-[480px] lg:h-[450px]"  src="../assets/Group 213.png" alt="" data-aos="zoom-out-up">
+                <img id="sc" class="-mt-[70px] lg:-ml-24 lg:mt-0 lg:w-[480px] lg:h-[450px]" src="../assets/Group 214.png" alt="" data-aos="zoom-out-up">
+                <img id="sc" class="-mt-[70px] lg:mt-0 lg:-ml-24 lg:w-[480px] lg:h-[450px]" src="../assets/Group 212.png" alt="" data-aos="zoom-out-up">
+            </div>
+        </section>
+        <section class="mb-24">
+            <h1 class="text-primary text-4xl font-normal flex items-center mb-5" data-aos="fade-up-right"><span class="text-white font-medium" >My </span> Skills <img class="ml-1 w-11" src="../assets/Group 216.svg" alt=""> </h1>
+            <div class=" gap-x-14  mt-3 hidden lg:flex"> 
+                <h1 class="flex text-white items-center text-2xl" data-aos="fade-up-right"><img class="w-6" src="../assets/Group 66.svg" alt=""> Html </h1>
+                <h1 class="flex text-white items-center text-2xl" data-aos="fade-up-right"><img src="../assets/Group 66.svg"class="w-6" alt=""> Css </h1>
+                <h1 class="flex text-white items-center text-2xl " data-aos="fade-up-right"><img src="../assets/Group 66.svg"class="w-6" alt=""> git </h1>
+                <h1 class="flex text-white items-center text-2xl " data-aos="fade-up-right"><img src="../assets/Group 66.svg"class="w-6" alt=""> Sass </h1>
+                <h1 class="flex text-white items-center text-2xl " data-aos="fade-up-right"><img src="../assets/Group 66.svg"class="w-6" alt=""> Tailwind </h1>
+              </div>
+              <div class=" gap-x-14  mt-4 hidden lg:flex"> 
+                <h1 class="flex text-white items-center text-2xl" data-aos="fade-up-right"><img class="w-6" src="../assets/Group 66.svg" alt=""> Js </h1>
+                <h1 class="flex text-white items-center text-2xl" data-aos="fade-up-right"><img src="../assets/Group 66.svg"class="w-6" alt=""> Python </h1>
+                <h1 class="flex text-white items-center text-2xl " data-aos="fade-up-right"><img src="../assets/Group 66.svg"class="w-6" alt=""> Ui/Ux </h1>
+                <h1 class="flex text-white items-center text-2xl " data-aos="fade-up-right"><img src="../assets/Group 66.svg"class="w-6" alt=""> Sass </h1>
+                <h1 class="flex text-white items-center text-2xl " data-aos="fade-up-right"><img src="../assets/Group 66.svg"class="w-6" alt=""> Bootstrap  </h1>
+              </div>
+            <div class="flex gap-x-9 lg:hidden"> <h1 class="flex text-white items-center text-2xl" data-aos="fade-up-right"><img class="w-6" src="../assets/Group 66.svg" alt=""> Html </h1>
+                <h1 class="flex text-white items-center text-2xl"  data-aos="fade-up-right"><img src="../assets/Group 66.svg"class="w-6" alt=""> Css </h1>
+                <h1 class="flex text-white items-center text-2xl" data-aos="fade-up-right"><img src="../assets/Group 66.svg"class="w-6" alt=""> Sass </h1>  
+            </div>
+                <div class="flex gap-x-9 mt-3 lg:hidden"> <h1 class="flex text-white items-center text-2xl" data-aos="fade-up-right"><img class="w-6" src="../assets/Group 66.svg" alt=""> Jquery </h1>
+                    <h1 class="flex text-white items-center text-2xl" data-aos="fade-up-right"><img src="../assets/Group 66.svg"class="w-6" alt=""> js </h1>
+                    <h1 class="flex text-white items-center text-2xl " data-aos="fade-up-right"><img src="../assets/Group 66.svg"class="w-6" alt=""> Bootstrap </h1>  </div>
+                    <div class="flex gap-x-9 mt-3 lg:hidden"> <h1 class="flex text-white items-center text-2xl" data-aos="fade-up-right"><img class="w-6" src="../assets/Group 66.svg" alt=""> Ui/Ux </h1>
+                        <h1 class="flex text-white items-center text-2xl" data-aos="fade-up-right"><img src="../assets/Group 66.svg"class="w-6" alt=""> Git </h1>
+                        <h1 class="flex text-white items-center text-2xl" data-aos="fade-up-right"><img src="../assets/Group 66.svg"class="w-6" alt=""> Python </h1>  
+                    </div>
+                    <div class="flex gap-x-9 mt-3 lg:hidden"> <h1 class="flex text-white items-center text-2xl" data-aos="fade-up-right"><img class="w-6" src="../assets/Group 66.svg" alt=""> Tailwind </h1>
+                    </div>
+        </section>
+        <section id="porto" class="mb-24 flex flex-col ">
+            <h1 class="text-white text-3xl font-semibold ml-12 lg:mb-7 lg:text-4xl  mb-5 lg:-ml-0"  data-aos="fade"><span class="text-primary font-normal">Check </span> Protofolio</h1>
+            <div class="hidden lg:flex gap-x-6 ">
+                <div class=" border-2 border-white/90 h-72 w-[450px] rounded-[15px]" data-aos="fade">
+                    <img src="../assets/Group 42.jpg" alt="" class="mt-12">
+                </div>
+                    <div class=" border-2 flex bg-white border-white/90 h-72 w-full rounded-[15px]" data-aos="fade">
+                       <a href="https://www.originalpoosh.com"><img src="../assets/Group 179.jpg" alt="" class="w-[354px] rounded-[15px] ml-[210px]"></a> 
+                    </div>
+            </div>
+            <div class="hidden mt-6 lg:flex gap-x-6 ">
+                <div class=" border-2 bg-[#161616] border-white/90 h-72 w-full rounded-[15px]" data-aos="fade">
+                    <img src="../assets/Group 8.jpg" alt="" class="w-[431px] rounded-[15px] ml-[180px]">
+                </div>
+                <div class=" border-2 bg-[#161616] border-white/90 h-72 w-[450px] rounded-[15px]" data-aos="fade">
+                    <img src="../assets/Group 16 (2).jpg" alt="" class="mt-5">
+                </div>
+            </div>
+            <div class="flex flex-col justify-center items-center mb-5 lg:hidden" dir="ltr">
+                <div class="w-1/2 mr-32 lg:mr-0  h-auto lg:mt-24">
+                    <div class="relative w-[300px] mt-3 mx-auto lg:[500px]">
+                        <div class="slide border-2 border-white bg-white h-72 w-[300px] rounded-[15px] relative">
+                            <img src="../assets/Group 16 (2).jpg" alt="" class="w-full mt-6">
+                        </div>
+                        <div class="slide border-2 bg-white border-white h-72 w-full rounded-[15px] relative">
+                            <img src="../assets/Group 42.jpg" alt="" class="w-full mt-12">
+                        </div>
+                        <div class="slide border-2 bg-white border-white h-72 w-full rounded-[15px] relative">
+                            <img src="../assets/Group 8.jpg" alt="" class="w-full mt-12">
+                        </div>
+                        <div class="slide border-2 bg-white border-white h-72 w-full rounded-[15px] relative">
+                           <a href="https://www.originalpoosh.com" target="_blank"><img src="../assets/Group 179.jpg" alt="" class="w-full mt-7"></a> 
+                        </div>
+                        <!-- The previous button -->
+                        <a class="absolute left-0 top-1/2 p-4 -translate-y-1/2 bg-primary ml-2 rounded-full h-5 w-5 justify-center lg:h-10 lg:w-10 flex items-center text-white hover:text-amber-500 cursor-pointer"
+                            onclick="moveSlide(-1)">❮</a>
+    
+                        <!-- The next button -->
+                        <a class="absolute right-0 top-1/2 p-4 -translate-y-1/2 bg-primary mr-2 rounded-full  h-5 w-5 justify-center lg:h-10 lg:w-10 flex items-center text-white hover:text-amber-500 cursor-pointer"
+                            onclick="moveSlide(1)">❯</a>
+    
+                    </div>
+                    <br>
+    
+                    <!-- The dots -->
+                    <div class="flex justify-center items-center space-x-5">
+                        <div class="dot w-4 h-4 rounded-full cursor-pointer" onclick="currentSlide(1)"></div>
+                        <div class="dot w-4 h-4 rounded-full cursor-pointer" onclick="currentSlide(2)"></div>
+                        <div class="dot w-4 h-4 rounded-full cursor-pointer" onclick="currentSlide(3)"></div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <section id="footer">
+            <h1 class="text-primary text-center text-2xl font-medium lg:text-3xl" data-aos="fade-up">Get in Touch</h1>
+            <h1 class="text-white text-center text-3xl mt-3 lg:text-4xl font-semibold" data-aos="fade">Any Questions?<br>Feel Free
+                to Contact</h1>
+                <form action="">
+                    <div class="lg:flex lg:gap-x-2">
+                        <input type="text" data-aos="fade-right" placeholder="Email Address..." class="w-full focus:border-primary text-white focus:ring-primary mt-6 h-20 bg-transparent rounded-[15px]">
+                        <input type="text" data-aos="fade" placeholder="Name..." class="w-full focus:border-primary text-white focus:ring-primary mt-6 h-20 bg-transparent rounded-[15px]">
+                    </div>
+                    <div class="lg:flex lg:gap-x-2">
+                        <input type="text" data-aos="fade-right" placeholder="Phone Number..." class="w-full focus:border-primary text-white focus:ring-primary mt-6 h-20 bg-transparent rounded-[15px]">
+                        <input type="text" data-aos="fade" placeholder="Subject..." class="w-full focus:border-primary text-white focus:ring-primary mt-6 h-20 bg-transparent rounded-[15px]">
+                    </div>
+                    <div class="flex flex-col items-center gap-y-5">
+                        <textarea data-aos="fade-right"  class="w-full  focus:border-primary text-white focus:ring-primary mt-6 h-[160px] bg-transparent rounded-[15px]" placeholder="message...." cols="30" rows="10"></textarea>
+                        <button type="reset" class="bg-primary transition-colors duration-500 cursor-pointer hover:bg-[#4900A5] w-28 h-12 rounded-[15px]  flex justify-center items-center text-xl text-white font-semibold" data-aos="fade-up">Send</button>
+                    </div>
+                </form>
+        </section>
+        <section id="cont" class="mt-14">
+            <h1 class="text-white  text-2xl font-medium" data-aos="fade-right">Contact</h1>
+            <div data-aos="fade" class="w-[100%] lg:flex lg:flex-row lg:p-24 lg:gap-x-[240px] flex flex-col gap-y-4 p-5 mt-4 h-[270px] rounded-[20px] bg-transparent border-solid border-[1px] border-white">
+                <div class="flex lg:flex lg:-mt-10 lg:flex-col lg:gap-y-4 items-center gap-x-3">
+                   <a href="tel:+989940389087"> <img class="w-[65px]" src="../assets/phone.svg" alt=""></a>
+                    <h1 class="text-white hidden lg:flex text-lg">Phone:</h1>
+                    <a href="tel:+989940389087"><h1 class="text-white text-lg">+989940389087</h1></a>
+                </div>
+                <div class="flex lg:flex lg:-mt-10 lg:flex-col lg:gap-y-4 items-center gap-x-3">
+                   <a href="mailto:pouya2402@gmail.com"> <img class="w-[65px]" src="../assets/email.svg" alt=""></a>
+                    <h1 class="text-white hidden lg:flex text-lg">Email:</h1>
+                    <a href="mailto:pouya2402@gmail.com"> <h1 class="text-white text-lg">Pouya2402@gmail.com</h1> </a>
+                </div>
+                <div class="flex lg:flex lg:-mt-10 lg:flex-col lg:gap-y-4 items-center gap-x-3">
+                    <img class="w-[65px]" src="../assets/loc.svg" alt="">
+                    <h1 class="text-white hidden lg:flex text-lg">Location:</h1>
+                    <h1 class="text-white text-lg">IR.tehran</h1>
+                </div>
+            </div>
+        </section>
+      <footer  class="flex lg:bg-primary w-full rounded-tl-2xl rounded-tr-2xl h-full flex-col mt-32 justify-center items-center">
+        <div class="flex  gap-x-5 mt-[70px]">
+            <a href="https://telegram.me/IsLynch">   <img data-aos="fade" class="w-10" src="../assets/tel.svg" alt=""></a>
+            <a href="https://instagram.com/isopouya?igshid=YmMyMTA2M2Y="> <img data-aos="fade" class="w-10" src="../assets/ADE.svg" alt=""> </a>
+            <a href="https://wa.me/+989120960199">  <img data-aos="fade" class="w-10" src="../assets/ADZ.svg" alt=""> </a>
+        </div>
+        <h1 class="text-center  lg:bg-primary w-full  mt-14 -mb-16 lg:mb-5 text-white" >Copyright 2023 | All Rights Rseved</h1>
+      </footer>
+    </main>
+    <script>
+
+        let slideIndex = 1;
+        showSlide(slideIndex);
+
+        function moveSlide(moveStep) {
+            showSlide(slideIndex += moveStep);
+        }
+
+        function currentSlide(n) {
+            showSlide(slideIndex = n);
+        }
+        const handleChange = (id) => {
+            console.log(id);
+            const slides = document.getElementsByClassName("slide");
+            for (let i = 0; i < slides.length; i++) {
+                const element = slides[i].getElementsByClassName('slide-img')[0].getAttribute("id");
+                // console.log(element);
+                if (element == id) {
+                    for (let j = 0; j < slides.length; j++) {
+                        slides[j].classList.add('hidden');
+
+                    }
+                    slides[i].classList.remove('hidden')
+                }
+
+            }
+        }
+        window.onload = () => {
+            handleChange('red');
+        }
+        function showSlide(n) {
+            let i;
+            const slides = document.getElementsByClassName("slide");
+            const dots = document.getElementsByClassName('dot');
+            if (n > slides.length) { slideIndex = 1 }
+            if (n < 1) { slideIndex = slides.length }
+
+
+            for (i = 0; i < slides.length; i++) {
+                slides[i].classList.add('hidden');
+            }
+
+
+            for (i = 0; i < dots.length; i++) {
+                dots[i].classList.remove('bg-yellow-500');
+                dots[i].classList.add('bg-green-600');
+            }
+
+            slides[slideIndex - 1].classList.remove('hidden');
+
+            dots[slideIndex - 1].classList.remove('bg-green-600');
+            dots[slideIndex - 1].classList.add('bg-yellow-500');
+        }
+
+
+
+
+
+        window.onload = function(){ document.getElementById("loading").style.display = "none" }
+    </script>
+    <script>
+        function decrement(e) {
+            const btn = e.target.parentNode.parentElement.querySelector(
+                'button[data-action="decrement"]'
+            );
+            const target = btn.nextElementSibling;
+            let value = Number(target.value);
+            value--;
+            target.value = value;
+        }
+
+        function increment(e) {
+            const btn = e.target.parentNode.parentElement.querySelector(
+                'button[data-action="decrement"]'
+            );
+            const target = btn.nextElementSibling;
+            let value = Number(target.value);
+            value++;
+            target.value = value;
+        }
+
+        const decrementButtons = document.querySelectorAll(
+            `button[data-action="decrement"]`
+        );
+
+        const incrementButtons = document.querySelectorAll(
+            `button[data-action="increment"]`
+        );
+
+        decrementButtons.forEach(btn => {
+            btn.addEventListener("click", decrement);
+        });
+
+        incrementButtons.forEach(btn => {
+            btn.addEventListener("click", increment);
+        });
+    </script>
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+    <script src="../src/js/script.js"></script>
+</body>
+</html>
